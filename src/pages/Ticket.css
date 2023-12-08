@@ -1,0 +1,260 @@
+.TicketPage {
+  width: 100vw;
+}
+.TicketPage *{
+    box-sizing:  border-box; 
+  }
+  header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+  
+  .TicketPage .logo{
+    width: 150px;
+  }
+  
+  body {    
+    background-color:#b1ff9c;
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .TicketPage div{
+    background-color: #b1ff9c;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .TicketPage p{
+        text-align: left;
+        font-size:larger;
+  }
+  .TicketPage header{
+    background-color:#437e41d2;
+    color: #fff;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;  
+  }
+  .TicketPage nav{
+    font-weight: bold;
+    padding: 1em;
+    font-size: 100%;
+    float: left;
+    width: 200px;
+  }
+  .TicketPage h1{
+    margin-bottom: 0;
+    margin-top: 0; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.25em;
+    text-align: left;
+    color: #000000;
+    background-color: #ffffff6d;
+  
+  }
+  .TicketPage h2{
+    color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px #000000;
+  }
+  .TicketPage h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+  }
+
+  .TicketPage footer{
+    font-size: 75%;
+    padding: 20px;
+    margin-left: 190px;
+  background-color:#ffffff
+  }
+  .TicketPage .Ticket{
+    color:#5C7FA3;
+    font-weight: bold;
+  }
+  .TicketPage main{
+    padding: 1px 20px 20px;
+    display:block; 
+    margin-left: 190px;
+  background-color: #ffffff;
+  }
+  .TicketPage nav a, .TicketPage nav ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.1em;
+  }
+  .TicketPage nav ul a:link{
+    color: #000000;
+  }
+  .TicketPage nav ul a:visited{
+    color: #18371a;
+  }
+  .TicketPage nav ul a:hover{ 
+    color: #a52a88;
+  }
+  /*desktop display*/
+  .TicketPage #mobile{
+    display: none;
+  }
+  .TicketPage #desktop{
+    display: inline;
+  }
+  /*tablet display*/
+  @media only screen and (max-width: 64em) {
+    .TicketPage body{
+        margin: 0;
+        background-color: #fff;
+    }
+    .TicketPage #wrapper{
+  min-width: 0;
+  width: auto;
+  box-shadow: none;
+  border: none;
+  
+    }
+    .TicketPage header{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0;
+        height: auto;
+    }
+    .TicketPage h1{
+        letter-spacing: 0.1em;
+    }
+    .TicketPage main{
+        margin-left: 0;
+  
+    }
+    .TicketPage nav{
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+    .TicketPage nav li{
+        display: inline;
+        padding: 0.25em 0.75em;
+  
+    }
+    .TicketPage #homehero, #yurthero,  #trailhero{
+        margin-left: 0;
+        height: 200px;
+    }
+    .TicketPage footer{
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }   
+  }
+  
+  
+  
+  @media screen and (max-width:37.5em){
+    label { float: none; text-align: left;}
+    input [ type="submit"]
+          { margin-left: 0; }
+          main{
+            padding: 0.1em;
+          }
+          h1{
+            font-size: 90%;
+          }
+          nav{
+            padding: 0;
+          }
+          nav li{
+            margin: 0;
+            display: block;
+            border-bottom: 2px #300;
+          }
+          nav a{
+            display: block;
+          }
+          #homehero, #yurthero,  #trailhero{
+            background-image: none;
+            height: 0;
+  
+          }
+  
+          #mobile{
+            display: inline;
+        }
+        #desktop{
+            display: none;
+        }
+  }
+
+  /* CSS */
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .rowData {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  div.rowData  {
+    background-color: white;
+  }
+  .rowData > button {
+    font-size: 18px;
+    width: auto;
+    background-color: #18371a;
+  }
+
+  /* MyFormComponent.css */
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .ticket-image {
+    max-width: 150px; 
+    max-height: 150px; 
+  }
+  

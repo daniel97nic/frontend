@@ -1,0 +1,80 @@
+
+  
+.yourbigdiv {  background-image: url("https://img.freepik.com/free-vector/potted-plant-doodle-vector-background_53876-126321.jpg"); 
+  background-size: cover ;
+  background-repeat: no-repeat ;
+
+  width: 100vw;
+  height: 100vh;
+  }
+
+
+@scope(.login-signup){
+#center{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+label{
+  padding-right: 20px;
+}
+.input{
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+#logintext{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom:16px;
+}
+#buttons{
+  text-align: center;
+  padding-top: 5px;
+}
+.button{
+  border-radius: 8px;
+  font-size: 20px;
+margin: 5px;
+background-color: transparent;
+border: none;
+background-image: url("/Rectangle 5@2x.svg");
+width: 100%;
+padding: 10px;
+height: 100%;
+background-size: cover;
+}
+#signinbutton{
+  margin-right: 10%;
+
+}
+#emailtext{
+padding-right: 49px;
+}
+#logo{
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button:hover{
+color: white;
+}
+.button{
+  transition: 0.5s ease-out;
+}
+}

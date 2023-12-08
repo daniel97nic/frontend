@@ -1,0 +1,50 @@
+/* styles.css */
+
+
+
+.login {
+    background-image: url('/client/public/image/12.jpeg');
+    background-size: cover;
+    background-position: center;
+    max-width: 300px;
+    margin: 100px auto; /* Adjust margin-top to center vertically */
+    padding: 20px; /* Adjust padding to your preference */
+    border: 10px solid rgb(25, 255, 113);
+    border-radius: 5px;
+}
+  
+  .login .logo{
+    width: 200px;
+
+  }
+  .login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .login input[type="email"],
+  .login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #056e19;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login button:hover {
+    background-color: #00b315;
+  }
+  

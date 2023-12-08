@@ -1,0 +1,188 @@
+
+.HomePage *{
+  box-sizing:  border-box; 
+}
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+.HomePage .logo{
+  width: 150px;
+}
+
+body {    
+  background-color:#b1ff9c;
+  color:#000000;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+.HomePage div{
+  background-color: #b1ff9c;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+}
+
+.HomePage p{
+      text-align: left;
+      font-size:larger;
+}
+.HomePage header{
+  background-color:#437e41d2;
+  color: #fff;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 3em;
+}
+.HomePage nav{
+  font-weight: bold;
+  padding: 1em;
+  font-size: 100%;
+  float: left;
+  width: 200px;
+}
+.HomePage h1{
+  margin-bottom: 0;
+  margin-top: 0; 
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.25em;
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff6d;
+
+}
+.HomePage h2{
+  color:rgb(255, 255, 255);
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px #000000;
+}
+.HomePage h3{
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(0, 0, 0);
+}
+
+.HomePage footer{
+  font-size: 75%;
+  padding: 20px;
+  margin-left: 190px;
+background-color:#ffffff
+}
+.HomePage .Incident{
+  color:#5C7FA3;
+  font-weight: bold;
+}
+.HomePage main{
+  padding: 1px 20px 20px;
+  display:block; 
+  margin-left: 190px;
+  background-color: #ffffff;
+}
+.HomePage nav a, .HomePage nav ul{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.1em;
+}
+.HomePage nav ul a:link{
+  color: #000000;
+}
+.HomePage nav ul a:visited{
+  color: #18371a;
+}
+.HomePage nav ul a:hover{ 
+  color: #a52a88;
+}
+/*desktop display*/
+.HomePage #mobile{
+  display: none;
+}
+.HomePage #desktop{
+  display: inline;
+}
+/*tablet display*/
+@media only screen and (max-width: 64em) {
+  .HomePage body{
+      margin: 0;
+      background-color: #fff;
+  }
+  .HomePage #wrapper{
+min-width: 0;
+width: auto;
+box-shadow: none;
+border: none;
+
+  }
+  .HomePage header{
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 0;
+      height: auto;
+  }
+  .HomePage h1{
+      letter-spacing: 0.1em;
+  }
+  .HomePage main{
+      margin-left: 0;
+
+  }
+  .HomePage nav{
+      float: none;
+      width: auto;
+      text-align: center;
+      padding: 0.5em;
+  }
+  .HomePage nav li{
+      display: inline;
+      padding: 0.25em 0.75em;
+
+  }
+  .HomePage #homehero, #yurthero,  #trailhero{
+      margin-left: 0;
+      height: 200px;
+  }
+  .HomePage footer{
+  margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}   
+}
+
+
+
+@media screen and (max-width:37.5em){
+  label { float: none; text-align: left;}
+  input [ type="submit"]
+        { margin-left: 0; }
+        main{
+          padding: 0.1em;
+        }
+        h1{
+          font-size: 90%;
+        }
+        nav{
+          padding: 0;
+        }
+        nav li{
+          margin: 0;
+          display: block;
+          border-bottom: 2px #300;
+        }
+        nav a{
+          display: block;
+        }
+        #homehero, #yurthero,  #trailhero{
+          background-image: none;
+          height: 0;
+
+        }
+
+        #mobile{
+          display: inline;
+      }
+      #desktop{
+          display: none;
+      }
+}

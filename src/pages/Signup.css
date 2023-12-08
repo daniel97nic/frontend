@@ -1,0 +1,54 @@
+/* styles.css */
+
+
+
+.SignupPage {
+    background-image: url('/client/public/image/12.jpeg');
+    background-size: cover;
+    background-position: center;
+    max-width: 300px;
+    margin: 100px auto; /* Adjust margin-top to center vertically */
+    padding: 20px; /* Adjust padding to your preference */
+    border: 10px solid rgb(25, 255, 113);
+    border-radius: 5px;
+}
+  
+  .SignupPage .logo{
+    width: 200px;
+
+  }
+  .SignupPage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  
+  .SignupPage input[type="text"],
+  .SignupPage input[type="number"],
+  .SignupPage input[type="password"],
+  .SignupPage input[type="email"]
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .SignupPage button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #056e19;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SignupPage button:hover {
+    background-color: #00b315;
+  }
+  

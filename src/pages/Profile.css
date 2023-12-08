@@ -1,0 +1,112 @@
+.ProfilePage {
+    background-color: #b1ff9c;
+    width: 100vw;
+    box-sizing: border-box;
+    
+  }
+  
+  .ProfilePage * {
+    box-sizing: border-box;
+  }
+  
+  .ProfilePage .logo {
+    width: 150px;
+  }
+  
+  body {
+    margin: 0; 
+    background-color: #b1ff9c;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ProfilePage div {
+    background-color: #b1ff9c;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .ProfilePage header {
+    background-color: #437e41d2;
+    color: #fff;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+  }
+  
+  .ProfilePage h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px #000000;
+  }
+  
+  .ProfilePage footer {
+    font-size: 75%;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .ProfilePage main {
+    padding: 1px 20px 20px;
+    display: block;
+    background-color: #ffffff;
+  }
+  
+  .ProfilePage nav {
+    font-weight: bold;
+    padding: 1em;
+    font-size: 100%;
+    float: left;
+    width: 200px;
+  }
+  
+  .ProfilePage nav a,
+  .ProfilePage nav ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.1em;
+  }
+  
+  .ProfilePage nav ul a:link {
+    color: #000000;
+  }
+  
+  .ProfilePage nav ul a:visited {
+    color: #18371a;
+  }
+  
+  .ProfilePage nav ul a:hover {
+    color: #a52a88;
+  }
+
+  .ticket-table {
+    width: 100%;
+    border: 1px solid #ddd;
+    max-width: 700px;
+    table-layout: fixed;
+    
+  }
+  
+  .ticket-table th,
+  .ticket-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ticket-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .ticket-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+ 
+  
+  
+  
